@@ -2,7 +2,6 @@ package Exersice;
 
 import java.util.Scanner;
 
-
 public class Exercise_Lab2_1 {
     public static Void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
