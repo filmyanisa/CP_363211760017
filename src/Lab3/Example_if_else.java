@@ -1,26 +1,19 @@
 package Lab3;
-
 import java.util.Scanner;
-
 public class Example_if_else {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter integer 1:");
-        int x = sc.nextInt();
-        System.out.print("Enter integar 3:");
-        int y = sc.nextInt();
-
+    public  static void  main(String[] args) {
+        Scanner SC = new Scanner(System.in);
+        System.out.println("Enter integer 1: ");
+        int X = SC.nextInt();
+        System.out.println("Enter integer 2: ");
+        int Y = SC.nextInt();
         //condition
-        if (x > y) {
-            System.out.println(x + " grater than" + y);
-        } else {
-            System.out.println(x + "less than" + y);
-        }
+        if(X>Y) {
+            System.out.println(X + " grater than " +Y);
+            System.out.println("X grater than Y.");
+        } else
+            System.out.println(X+" less than "+Y);
         System.out.println("Good Bye.");
 
-
     }//main
-}//class
-
+}//main
