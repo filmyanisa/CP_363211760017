@@ -26,6 +26,11 @@ public class ExFinally {
 
         } catch (IOException e) {
             e.printStackTrace();
+
+        } finally {
+            //connect DB
+            // close connection
+            System.out.println("Test Finally.");
         }
 
 
