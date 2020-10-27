@@ -2,28 +2,22 @@ package Lab8;
 
 public class ExThrows {
 
-
-    public static void main(String args) {
+    public static void main(String[] args) {
         int x = 10;
         int y = 0;
 
         int r = 0;
         try {
             r = divide(x, y);
-        } catch (Exception e ){
+        } catch (Exception e) {
             e.printStackTrace();
-
         }
-
-
-        System.out.println("The result :" + r);
+        System.out.println("The result : "+r);
 
 
     }
 
-    private static int divide(int x, int y) throws Exception {
-        return x / y;
-
+    private static int divide(int x, int y)throws Exception {
+        return x / y;   // 10/0
     }
 }
-
